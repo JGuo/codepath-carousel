@@ -12,6 +12,8 @@
 		8F09A72E1C6BC23C005101D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F09A72C1C6BC23C005101D2 /* Main.storyboard */; };
 		8F09A7301C6BC23C005101D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F09A72F1C6BC23C005101D2 /* Assets.xcassets */; };
 		8F09A7331C6BC23C005101D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F09A7311C6BC23C005101D2 /* LaunchScreen.storyboard */; };
+		8F09A73B1C6BC4BC005101D2 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F09A73A1C6BC4BC005101D2 /* Common.swift */; };
+		8F09A73F1C6BC987005101D2 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F09A73E1C6BC987005101D2 /* IntroViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8F09A72F1C6BC23C005101D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F09A7321C6BC23C005101D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F09A7341C6BC23C005101D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F09A73A1C6BC4BC005101D2 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Common.swift; path = ../../../../Downloads/Common.swift; sourceTree = "<group>"; };
+		8F09A73E1C6BC987005101D2 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntroViewController.swift; path = ../IntroViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +61,10 @@
 				8F09A7281C6BC23C005101D2 /* AppDelegate.swift */,
 				8F09A72A1C6BC23C005101D2 /* ViewController.swift */,
 				8F09A72C1C6BC23C005101D2 /* Main.storyboard */,
+				8F09A73E1C6BC987005101D2 /* IntroViewController.swift */,
 				8F09A72F1C6BC23C005101D2 /* Assets.xcassets */,
 				8F09A7311C6BC23C005101D2 /* LaunchScreen.storyboard */,
+				8F09A73A1C6BC4BC005101D2 /* Common.swift */,
 				8F09A7341C6BC23C005101D2 /* Info.plist */,
 			);
 			path = Carousel;
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F09A72B1C6BC23C005101D2 /* ViewController.swift in Sources */,
+				8F09A73B1C6BC4BC005101D2 /* Common.swift in Sources */,
 				8F09A7291C6BC23C005101D2 /* AppDelegate.swift in Sources */,
+				8F09A73F1C6BC987005101D2 /* IntroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
